@@ -1,4 +1,3 @@
-
 // Your code here
 class Cat{
 constructor(name, sex){
@@ -36,12 +35,21 @@ speak(){
 }
 }
 
-const cat   = new Cat ;
-const dog   = new Dog ;
-const bird  = new Bird;
-const bird2 = new Bird;
+const cat   = new Cat('Sasha', 'male') ;
+const dog   = new Dog ('Rufio', 'male') ;
+const bird  = new Bird('Pablo', 'male') ;
+const bird2 = new Bird('Mable', 'female') ;
 
-cat.speak('Sasha');
-dog.speak('Rufio');
-bird.speak('Pablo');
-bird2.speak('Mable');
+console.log(cat);
+console.log(dog);
+console.log(bird);
+console.log(bird2);
+
+// cat.speak('Sasha');
+// dog.speak('Rufio');
+// bird.speak('Pablo');
+// bird2.speak('Mable');
+cat.speak();
+dog.speak();
+bird.speak();
+bird2.speak();
